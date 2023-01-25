@@ -1,7 +1,7 @@
 # SQL migrations for Golang and PostgreSQL
 
-[![Build Status](https://travis-ci.org/go-pg/migrations.svg)](https://travis-ci.org/go-pg/migrations)
-[![GoDoc](https://godoc.org/github.com/go-pg/migrations?status.svg)](https://godoc.org/github.com/go-pg/migrations)
+[![Build Status](https://travis-ci.org/Humper/migrations.svg)](https://travis-ci.org/Humper/migrations)
+[![GoDoc](https://godoc.org/github.com/Humper/migrations?status.svg)](https://godoc.org/github.com/Humper/migrations)
 
 This package allows you to run migrations on your PostgreSQL database using [Golang Postgres client](https://github.com/go-pg/pg). See [example](example) for details.
 
@@ -9,11 +9,11 @@ You may also want to check [go-pg-migrations](https://github.com/robinjoseph08/g
 
 # Installation
 
-go-pg/migrations requires a Go version with [Modules](https://github.com/golang/go/wiki/Modules) support and uses import path versioning. So please make sure to initialize a Go module:
+Humper/migrations requires a Go version with [Modules](https://github.com/golang/go/wiki/Modules) support and uses import path versioning. So please make sure to initialize a Go module:
 
 ```shell
 go mod init github.com/my/repo
-go get github.com/go-pg/migrations/v8
+go get github.com/Humper/migrations/v8
 ```
 
 # Usage

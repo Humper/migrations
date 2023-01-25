@@ -1,4 +1,4 @@
-module github.com/go-pg/migrations/v8
+module github.com/Humper/migrations/v8
 
 go 1.16
 

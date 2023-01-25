@@ -133,7 +133,7 @@ func migrationFile() string {
 		if !ok {
 			break
 		}
-		if !strings.Contains(f.Function, "/go-pg/migrations") {
+		if !strings.Contains(f.Function, "/Humper/migrations") {
 			return f.File
 		}
 	}
@@ -760,7 +760,7 @@ func createMigrationFile(filename string) error {
 var migrationTemplate = []byte(`package main
 
 import (
-	"github.com/go-pg/migrations"
+	"github.com/Humper/migrations"
 )
 
 func init() {

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/go-pg/migrations/v8"
+	"github.com/Humper/migrations/v8"
 	"github.com/go-pg/pg/v10"
 )
 
